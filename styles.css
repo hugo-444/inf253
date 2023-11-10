@@ -10,6 +10,33 @@ header>h1 {
 
 }
 
+@media (max-width: 35rem) {
+  header>h1 {
+    font-size:30px;
+    padding-top: 160px;
+  }
+}
+
+@media (max-width: 35rem) {
+  header{
+    height: 200px;
+    background-image: url(https://placekitten.com/600/250);
+
+  }
+}
+
+@media (max-width: 35rem) {
+  .article-image{
+    margin: 10px 10px 10px 10px
+  }
+}
+
+@media (max-width: 20rem) {
+  .article-image{
+    margin: 0px 50px 20px 20px
+  }
+}
+
 h1#article-title{
   border-bottom: 2.5px solid black;
 }
